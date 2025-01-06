@@ -1,0 +1,30 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "mern project",
+  "homepage": "https://github.com/stellariley/Book-store#readme",
+  "bugs": {
+    "url": "https://github.com/stellariley/Book-store/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stellariley/Book-store.git"
+  },
+  "license": "ISC",
+  "author": "Stella",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3",
+    "nodemon": "^3.1.9",
+    "react-hot-toast": "^2.5.1"
+  }
+}
